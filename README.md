@@ -15,3 +15,8 @@ The Code will be published before 30th of June.
 - Don't forget to source the package ```source devel/setup.bash ```
 - ```chmod +x modelROS.py``` (do it one time to change accessibility of the file)
 
+a rosbag have been created from kitti dataset. you can save the file and play the rosbag on a seperate terminal 
+``` rosbag play *.bag```
+
+- launch the conde: ``` roslaunch ab3d ab3dLaunch.launch ```
+

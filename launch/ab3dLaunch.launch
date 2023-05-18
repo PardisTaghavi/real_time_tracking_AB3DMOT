@@ -1,0 +1,6 @@
+
+<launch>
+    <!-- Node -->
+    <node name="trackingNode" pkg="ab3d" type="modelROS.py" output="screen" respawn="true">
+    </node>
+</launch>

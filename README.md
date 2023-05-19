@@ -6,20 +6,32 @@ The Code will be published before 30th of June and is not complete now.
 
 
 
-- clone this repo:
+- clone this repo in catkin_ws/src directory:
 
 
 ```git clone https://github.com/PardisTaghavi/real_time_tracking_AB3DMOT.git ```
+``` cd ab3d/src ```
 
 - create conda environments with the required libraries:
 ```conda env create --file environment.yml```
-- activate conda environment: ``` conda activate AB3D```
-- you should build the package in a catkin workspace ``` catkin build ab3d or catkin_make```
+- activate conda environment: ```conda activate AB3D```
+- install AB3DMOT library and mmdetection3d library and follow their instructions for installatoion 
+```git clone https://github.com/xinshuoweng/AB3DMOT.git```
+```git clone https://github.com/open-mmlab/mmdetection3d.git```
+
+
+- Build the package in catkin workspace with``` catkin build ab3d or catkin_make```
 - Don't forget to source the package ```source devel/setup.bash ```
 - ```chmod +x modelROS.py``` (do it one time to change accessibility of the file)
 
-a rosbag have been created from kitti dataset. you can save the file and play the rosbag on a seperate terminal 
-``` rosbag play *.bag```
+folder data includes a rosbag from kitti dataset for testing purposes. you should play the rosbag on a seperate terminal
+``` rosbag play <name of rosbag>.bag```
+file 0000.txt in data folder is a calibration file of kitti dataset.
 
-- launch the conde: ``` roslaunch ab3d ab3dLaunch.launch ```
+- launch the code: ``` roslaunch ab3d ab3dLaunch.launch ```
+-------------------------------------------------------------------
+libraries and data used:
+AB3DMOT : https://github.com/xinshuoweng/AB3DMOT
+mmdetection3d : https://github.com/open-mmlab/mmdetection3d
+kitti dataset : https://www.cvlibs.net/datasets/kitti/
 

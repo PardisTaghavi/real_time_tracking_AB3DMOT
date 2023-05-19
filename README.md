@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 The Code will be published before 30th of June and is not complete now.
 
 # Real_Time_Tracking_AB3DMOT

@@ -1,12 +1,14 @@
 The Code will be published before 30th of June and is not complete now.
 
 # Real_Time_Tracking_AB3DMOT
-Modification of "AB3DMOT" code for real-time tracking in ROS
+"AB3DMOT" code for real-time tracking in ROS
 ----------------------------------------------------------------------
 
 
 
-- clone the repo:
+- clone this repo:
+
+
 ```git clone https://github.com/PardisTaghavi/real_time_tracking_AB3DMOT.git ```
 
 - create conda environments with the required libraries:

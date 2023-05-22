@@ -25,7 +25,8 @@
 - Don't forget to source the package ```source devel/setup.bash ```
 - ```chmod +x modelROS.py``` (do it one time to change accessibility of the file)
 
-folder data includes a rosbag from kitti dataset for testing purposes. you should play the rosbag on a seperate terminal
+a rosbag file from kitti dataset is available here for testing purposes: https://drive.google.com/file/d/1WHaCPYf0tYoGBJDB780DLfgqdfXo0V_p/view?usp=sharing
+you should play the rosbag on a seperate terminal
 ``` rosbag play <name of rosbag>.bag```
 file 0000.txt in data folder is a calibration file of kitti dataset.
 

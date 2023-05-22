@@ -1,5 +1,5 @@
 
-# Real_Time_Tracking_AB3DMOT
+## Real_Time_Tracking_AB3DMOT
 "AB3DMOT" modification for real-time tracking in ROS
 ----------------------------------------------------------------------
 
@@ -43,7 +43,7 @@ you should play the rosbag on a seperate terminal
 ![ezgif com-gif-maker](https://github.com/PardisTaghavi/real_time_tracking_AB3DMOT/blob/main/TrackingDemo.gif)
 
 -------------------------------------------------------------------
-### related repos and data :
+#### "Special thanks to the authors of the original code AB3DMOT and mmdetection3d for laying the foundation of this project."
 AB3DMOT : https://github.com/xinshuoweng/AB3DMOT
 
 mmdetection3d : https://github.com/open-mmlab/mmdetection3d

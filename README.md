@@ -33,7 +33,7 @@ file 0000.txt in data folder is a calibration file of kitti dataset.
 - launch the code: ``` roslaunch ab3d ab3dLaunch.launch ```
 
 
-![ezgif com-gif-maker](https://github.com/PardisTaghavi/real_time_tracking_AB3DMOT/blob/main/trackingDemo.gif)
+![ezgif com-gif-maker](https://github.com/PardisTaghavi/real_time_tracking_AB3DMOT/blob/main/TrackingDemo.gif)
 
 -------------------------------------------------------------------
 ### related repos and data :

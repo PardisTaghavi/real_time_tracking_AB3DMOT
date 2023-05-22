@@ -1,6 +1,6 @@
 
 # Real_Time_Tracking_AB3DMOT
-"AB3DMOT" code for real-time tracking in ROS
+"AB3DMOT" modification for real-time tracking in ROS
 ----------------------------------------------------------------------
 
 

@@ -31,6 +31,10 @@ you should play the rosbag on a seperate terminal
 file 0000.txt in data folder is a calibration file of kitti dataset.
 
 - launch the code: ``` roslaunch ab3d ab3dLaunch.launch ```
+
+
+![ezgif com-gif-maker](https://github.com/PardisTaghavi/real_time_tracking_AB3DMOT/blob/main/trackingDemo.gif)
+
 -------------------------------------------------------------------
 ### related repos and data :
 AB3DMOT : https://github.com/xinshuoweng/AB3DMOT

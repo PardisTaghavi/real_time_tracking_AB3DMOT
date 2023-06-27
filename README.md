@@ -1,13 +1,10 @@
 
-#Real_Time_Tracking_AB3DMOT
-"AB3DMOT" modification for real-time tracking in ROS
-----------------------------------------------------------------------
+### "AB3DMOT" modification for real-time tracking in ROS
 
-# Requirements
-Ubuntu 18.04
-ROS Melodic
+### Requirements
+Ubuntu 18.04/ ROS Melodic
 
-# Installation
+### Installation
 
 - clone this repo in catkin_ws/src directory:
 
